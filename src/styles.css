@@ -1,18 +1,21 @@
 * {
-    padding: 0;
+    padding: 10px;
     margin: 0;
     box-sizing: border-box;
-}
-p {
-    background-color: lightblue;
-}
-
-li {
-    color: darkblue;
+    line-height: 1.5;
+    font-size: 25px;
+    font-weight: bold;
+    
 }
 
-h3 {
-    font-style: italic;
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.location_icon {
+    width: 60px;
+    vertical-align: middle;
 }
 
 img {
@@ -21,11 +24,40 @@ img {
 }
 
 .avatar {
-    width: 500px;
+    width: 200px;
 }
 
-#react {
-    color: green;
+h3 {
+    font-style: italic;
+}
+
+.writeup {
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+#my_hobbies {
+    margin-top: 10px;
+}
+ul {
+    padding-top: 0;
+}
+
+li {
+    color: darkblue;
+    font-weight: normal;
+    line-height: 1;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+#link {
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
 }
 
 /*
